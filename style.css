@@ -1,0 +1,48 @@
+*{box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(187, 52, 79);
+    clear:both;
+    padding: 20px; 
+}
+.container1{
+    float:left;
+    background-color: rgb(22, 99, 22);
+    padding: 20px; 
+    float: left;
+    width: 20%;
+    height: 380px;
+}
+div{
+    background-color: rgb(222, 244, 96);
+    padding: 20px;
+    float:left;
+    width: 80%;
+}
+.section2{
+    float:left;
+    background-color: pink;
+    padding: 20px; 
+    width: 50%;
+}
+
+.section3{
+    float:left;
+    background-color: rgb(128, 102, 155);
+    padding: 20px; 
+    width: 50%;
+}
+.section4{
+    float:left;
+    background-color: rgb(26, 230, 213);
+    padding: 20px;
+}
+
+
+footer{
+    clear: both;
+    background-color: rgb(30, 30, 167);
+    font-weight: bold;
+    padding: 20px;
+}

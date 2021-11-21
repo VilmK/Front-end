@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+
+        <h3>Užpildykite formą</h3>
+
+
+        <h5>Visi laukai privalomi</h5>
+
+
+        <p>Vardas (iš didžiosios raidės) </p>
+        <input type="text" placeholder="Vardas" pattern="[A-Z]{1}[a-z]+" required>
+
+        <p>
+            Jūsų telefono numeris
+        </P>
+        <input type="tel" placeholder="+370-xxx-xxxxx" pattern="[+][0-9]{3}[-][0-9]{3}[-][0-9]{5}" required>
+
+        <p>
+            El. pašto adresas</p>
+        <input type="email" placeholder="el.p.adresas" required>
+
+        <p>
+            Jūsų mėgstamiausios internetinės svetainės adresas
+        </p>
+        <input type="url" placeholder="url.adresas" required>
+        <p>
+            Jūsų gimimo data
+        </p>
+        <input type="date" placeholder="yyyy-mm-dd" required>
+
+        <p>
+            Jūsų amžius
+        </p>
+        <input type="number" placeholder="nuo 18 iki 65" min="18" max="65" required>
+        <p>
+            Jūsų pašto kodas
+        </p>
+        <input type="zip" placeholder="XX-01234" pattern="[A-Z]{2}[-][0-9]{5}" required>
+        <p>
+            Jūsų mėgstamiausia spalva
+        </p>
+        <input type="color" required>
+
+        <p><input type="submit" value="pateikti"></p>
+    </form>
+</body>
+
+</html>
